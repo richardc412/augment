@@ -1,0 +1,99 @@
+# Xcode
+#
+build/
+DerivedData/
+*.xcworkspace/xcuserdata
+!default.xcworkspace/xcshareddata/WorkspaceSettings.xcsettings
+*.xcworkspace/contents.xcworkspacedata
+*.xcuserstate
+*.moved-aside
+*.pbxuser
+!default.pbxuser
+*.perspectivev3
+*.xccheckout
+*.xccheckout.*
+# Playground
+timeline.xctimeline
+playground.xcworkspace
+
+# Swift Package Manager
+# (Artifacts)
+.build/
+# (Dependencies)
+Packages/
+.swift-version
+
+# CocoaPods
+Pods/
+Podfile.lock
+# If using frameworks via dynamic linking, you may want to ignore:
+# *.framework
+
+# Carthage
+Carthage/Build/
+# Carthage checkout directories (uncomment if you don't check in Carthage sources)
+# Carthage/Checkouts/
+
+# Fastlane
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots/**/*.png
+fastlane/test_output
+
+# Xcode Server
+IntegrationTests/
+*.integration
+
+# macOS
+#
+# Icon must end with two \r
+Icon?
+# Thumbnails
+._*
+# Files that might appear in the root of a volume
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+# Directories potentially created on remote AFP share
+.AppleDB/
+.AppleDesktop/
+Network Trash Folder/
+Temporary Items/
+.apdisk
+
+# User settings
+*.xcuserdatad
+
+# Editor backup files
+*~
+*.swp
+*.swo
+
+# Misc
+*.moved-aside
+*.orig
+*.rej
+
+# Bundle and archive
+*.xcarchive
+*.dSYM.zip
+*.dSYM
+
+# Built products
+*.app
+*.framework
+*.dylib
+
+# Test result
+*.xccovreport
+*.xcresult
+
+# Logs
+*.log
+
+# Certificates
+*.cer
+*.p12
