@@ -1,3 +1,3 @@
 # augment
 
-Building distributed computer vision.
+Building distributed spatial intelligence.
